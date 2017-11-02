@@ -11,7 +11,7 @@ install:
   - pipenv install --system -d
 
 script:
-  - pytest
+  - python -m pytest
 
 notifications:
   email:
